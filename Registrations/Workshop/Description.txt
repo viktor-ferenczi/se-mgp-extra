@@ -22,7 +22,7 @@ Please [b]see the videos[/b] on how the above features work.
 [*] This is [b]not[/b] a "mod version" of the Multigrid Projector!
 [*] Despite its name this mod also works with the vanilla game.
 [*] It is a regular mod which needs to be added to the world as usual.
-[*] Some features added in the future may require the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2415983416]MGP client plugin[/url] to work.
+[*] Currently there is no way to re-bind the alignment controls. - Please send me a PR (see GitHub below) if you fix this!
 [/list]
 
 [h2]Want to know more?[/h2]
@@ -31,4 +31,5 @@ Please [b]see the videos[/b] on how the above features work.
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2415983416]Multigrid Projector[/url]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2500645063]Test World 1[/url]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2500874147]Test World 2[/url]
+[*] [url=https://github.com/viktor-ferenczi/se-mgp-extra]Source code[/url]
 [/list]
