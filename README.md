@@ -23,11 +23,3 @@ plugin which allows for that. Unfortunately I named this mod in a pretty confusi
 
 This mod is to add a few extra functionality over the Multigrid Projector plugin.
 The functionality detailed below work both with and without the plugin.
-
-## Want to know more?
-
-* [MGP Extra mod on the Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2497985921)
-* [SE Mods Discord](url=https://discord.gg/PYPFPGf3Ca) (support)
-* [Multigrid Projector](url=https://steamcommunity.com/sharedfiles/filedetails/?id=2415983416)
-* [Test World 1](url=https://steamcommunity.com/sharedfiles/filedetails/?id=2500645063)
-* [Test World 2](url=https://steamcommunity.com/sharedfiles/filedetails/?id=2500874147)
