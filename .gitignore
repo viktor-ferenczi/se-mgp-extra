@@ -1,0 +1,7 @@
+.idea
+*.DotSettings.user
+Bin64
+packages.config
+/packages
+**/bin
+**/obj
