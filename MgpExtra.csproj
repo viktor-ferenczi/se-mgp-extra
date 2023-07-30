@@ -78,6 +78,7 @@
         <Compile Include="Mod\Data\Scripts\MgpExtra\Logic\Repair.cs" />
         <Compile Include="Mod\Data\Scripts\MgpExtra\Multiplayer\Comms.cs" />
         <Compile Include="Mod\Data\Scripts\MgpExtra\Multiplayer\Role.cs" />
+        <Compile Include="Mod\Data\Scripts\MgpExtra\MgpApi\MultigridProjectorModAgent.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>

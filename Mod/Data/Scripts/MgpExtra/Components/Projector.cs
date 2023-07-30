@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Text;
 using VRage.Game.Components;
@@ -22,16 +23,48 @@ namespace MgpExtra
         private readonly List<IMyTerminalAction> customActions = new List<IMyTerminalAction>();
 
         private bool initialized;
+        private int waitForMgp = 60;
+
+        private MultigridProjectorModAgent mgpAgent;
         
         public override void UpdateBeforeSimulation() {
             if (initialized)
                 return;
 
-            initialized = true;
-            
             if (Comms.Role == Role.DedicatedServer)
+            {
+                initialized = true;
                 return;
+            }
 
+            if (mgpAgent == null)
+            {
+                mgpAgent = new MultigridProjectorModAgent();
+            }
+
+            if (!mgpAgent.Available && waitForMgp > 0)
+            {
+                waitForMgp--;
+                return;
+            }
+
+            initialized = true;
+
+            // MGP 0.5.0 and later implements all of the functionality of this mod,
+            // therefore this mod must be disabled 
+            if (mgpAgent.Available)
+            {
+                var mgpVersion = mgpAgent.Version.Split(new char[] {'.'});
+                if (mgpVersion.Length >= 2)
+                {
+                    // MGP version >= 0.5
+                    if (mgpVersion[0] != "0" || string.Compare(mgpVersion[1], "5", StringComparison.Ordinal) >= 0)
+                    {
+                        return;
+                    }
+                }
+            }
+            
             CreateCustomControls();
             
             MyAPIGateway.TerminalControls.CustomControlGetter += AddControlsToBlocks;
