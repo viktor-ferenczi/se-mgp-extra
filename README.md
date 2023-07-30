@@ -13,12 +13,11 @@ Extra functionality and convenience features for the **vanilla** projector block
 * This is **not** a "mod version" of the Multigrid Projector!
 * Despite its name this mod also works with the vanilla game.
 * It is a regular mod which needs to be added to the world as usual.
-* Some features added in the future may require the [MGP client plugin](https://steamcommunity.com/sharedfiles/filedetails/?id=2415983416) to work.
 
 ## Sorry, confusing mod name
 
 This mod does **not** allow loading/welding blueprints with multiple subgrids in itself.
-It is the [Multigrid Projector](https://steamcommunity.com/sharedfiles/filedetails/?id=2415983416)
+It is the [Multigrid Projector](https://github.com/viktor-ferenczi/multigrid-projector/) client
 plugin which allows for that. Unfortunately I named this mod in a pretty confusing way, sorry.
 
 This mod is to add a few extra functionality over the Multigrid Projector plugin.
