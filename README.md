@@ -1,3 +1,5 @@
+**OBSOLETE** - Please use the Multigrid Projector client plugin instead, that one implement all of the functionality and more.
+
 # Multigrid Projector Extra
 
 [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2497985921)
